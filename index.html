@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jeu de dés</title>
+</head>
+<body>
+    <div class="container">
+        <div class="tools">
+            <span><a href="#" id="newGame">NEW GAME</a></span>
+        </div>
+        <div class="player player1">
+            <p class="active name" id="name1">PLAYER 1</p>
+            <span class="scoreGlobal" id="globalPlayer1">0</span>
+            <div class="scoreCurrent">
+                <p>CURRENT</p>
+                <span id="currentPlayer1">0</span>
+            </div>
+        </div>
+        <div class="commands">
+            <div class="imgContainer"><img src="./img/one.png" id="imgContainer"></div>
+            <span class="roll"><a href="#" id="roll">ROLL DICE</a></span>
+            <span class="hold"><a href="#" id="hold">HOLD</a></span>
+        </div>
+        <div class="player player2">
+            <p class="name player2Name" id="name2">PLAYER 2</p>
+            <span class="scoreGlobal" id="globalPlayer2">0</span>
+            <div class="scoreCurrent">
+                <p>CURRENT</p>
+                <span id="currentPlayer2">0</span>
+            </div>
+            
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
